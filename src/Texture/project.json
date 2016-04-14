@@ -1,22 +1,21 @@
 {
     "version": "0.0.0",
-    "description": "",
+    "description": "This library has the purpose of wrapping some function, which describes the texture mapping between a material and some 3D model object.",
     "authors": [
+        "Anders Munck Højsgaard <amuh@itu.dk>"
     ],
     "tags": [
+        "texture"
     ],
     "projectUrl": "https://github.itu.dk/bndn/texture",
     "licenseUrl": "https://github.itu.dk/bndn/texture/blob/master/LICENSE.md",
 
     "dependencies": {
+        "Material": "",
         "FSharp.Dnx": {
             "type": "build",
             "version": "1.0.0-*"
         }
-    },
-
-    "commands": {
-        "run": "run"
     },
 
     "frameworks": {
@@ -30,7 +29,8 @@
     },
     "fsharp": {
         "files": [
-            "Program.fs"
+            "Texture.fsi",
+            "Texture.fs"
         ]
     }
 }
