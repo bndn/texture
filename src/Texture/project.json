@@ -1,6 +1,6 @@
 {
     "version": "0.0.0",
-    "description": "This library has the purpose of wrapping some function, which describes the texture mapping between a material and some 3D model object.",
+    "description": "A library for mapping 2-dimensional materials to 3-dimensional model objects",
     "authors": [
         "Anders Munck Højsgaard <amuh@itu.dk>"
     ],
